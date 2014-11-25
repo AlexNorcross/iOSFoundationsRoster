@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NY2-5q-sIg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NY2-5q-sIg">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -92,39 +92,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jm-ZT-GPm">
-                                <rect key="frame" x="26" y="84" width="98.5" height="22.5"/>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcT-gF-mTB">
-                                <rect key="frame" x="26" y="151" width="97" height="22.5"/>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="First Name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1eY-HM-10z">
-                                <rect key="frame" x="26" y="111" width="150" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="0hL-7x-iSG"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Last Name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JQU-Qb-cSo">
-                                <rect key="frame" x="26" y="179" width="150" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="C8L-CS-Rgv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mpO-dJ-mic">
-                                <rect key="frame" x="434" y="84" width="140" height="190"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mpO-dJ-mic" userLabel="View Camera">
+                                <rect key="frame" x="323" y="84" width="120" height="190"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhw-rJ-02G">
-                                        <rect key="frame" x="32" y="138" width="75" height="32"/>
+                                        <rect key="frame" x="22" y="138" width="75" height="32"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="75" id="iMW-DA-nEH"/>
@@ -143,7 +115,7 @@
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QuestionMark.png" translatesAutoresizingMaskIntoConstraints="NO" id="VwN-Rh-bee">
-                                        <rect key="frame" x="20" y="20" width="100" height="100"/>
+                                        <rect key="frame" x="10" y="20" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="IH3-G7-OVX"/>
                                             <constraint firstAttribute="height" constant="100" id="sth-e8-dVk"/>
@@ -157,53 +129,61 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.88627450980392153" green="0.94901960784313721" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="140" id="AFx-tM-eyl"/>
+                                    <constraint firstAttribute="width" constant="120" id="AFx-tM-eyl"/>
                                     <constraint firstAttribute="height" constant="190" id="I6v-mT-gA7"/>
                                     <constraint firstAttribute="bottom" secondItem="Mhw-rJ-02G" secondAttribute="bottom" constant="20" id="JV3-La-pxo"/>
                                     <constraint firstItem="VwN-Rh-bee" firstAttribute="top" secondItem="mpO-dJ-mic" secondAttribute="top" constant="20" id="Uhk-sp-UZI"/>
-                                    <constraint firstAttribute="centerY" secondItem="Mhw-rJ-02G" secondAttribute="centerY" id="Xvd-T4-RDY"/>
-                                    <constraint firstItem="Mhw-rJ-02G" firstAttribute="top" secondItem="VwN-Rh-bee" secondAttribute="bottom" constant="5" id="aQh-yj-vqE"/>
-                                    <constraint firstAttribute="centerY" secondItem="VwN-Rh-bee" secondAttribute="centerY" id="gNn-Go-r6q"/>
                                     <constraint firstAttribute="centerX" secondItem="Mhw-rJ-02G" secondAttribute="centerX" id="gTH-ue-b1r"/>
-                                    <constraint firstAttribute="centerX" secondItem="VwN-Rh-bee" secondAttribute="centerX" id="z9N-lS-crg"/>
+                                    <constraint firstAttribute="centerX" secondItem="VwN-Rh-bee" secondAttribute="centerX" id="qwA-jM-sC8"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="gNn-Go-r6q"/>
-                                        <exclude reference="Xvd-T4-RDY"/>
-                                        <exclude reference="aQh-yj-vqE"/>
-                                    </mask>
-                                </variation>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jm-ZT-GPm">
+                                <rect key="frame" x="156" y="84" width="98.5" height="22.5"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="First Name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1eY-HM-10z">
+                                <rect key="frame" x="156" y="111" width="140" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="0hL-7x-iSG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcT-gF-mTB">
+                                <rect key="frame" x="156" y="156" width="97" height="22.5"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Last Name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JQU-Qb-cSo">
+                                <rect key="frame" x="156" y="184" width="140" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="C8L-CS-Rgv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1eY-HM-10z" firstAttribute="top" secondItem="6jm-ZT-GPm" secondAttribute="bottom" constant="5" id="8Mp-UU-pc0"/>
-                            <constraint firstItem="1eY-HM-10z" firstAttribute="leading" secondItem="NcT-gF-mTB" secondAttribute="leading" constant="5" id="9Z6-hH-JDp"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mpO-dJ-mic" secondAttribute="trailing" constant="10" id="CJI-pT-u0W"/>
-                            <constraint firstItem="mpO-dJ-mic" firstAttribute="top" secondItem="6jm-ZT-GPm" secondAttribute="top" id="Pbt-Bh-vQE"/>
-                            <constraint firstItem="1eY-HM-10z" firstAttribute="leading" secondItem="JQU-Qb-cSo" secondAttribute="leading" id="XvO-VH-ZNh"/>
-                            <constraint firstItem="1eY-HM-10z" firstAttribute="leading" secondItem="NcT-gF-mTB" secondAttribute="leading" id="by1-Hy-pM0"/>
-                            <constraint firstItem="1eY-HM-10z" firstAttribute="leading" secondItem="JQU-Qb-cSo" secondAttribute="leading" constant="5" id="djO-af-RPy"/>
-                            <constraint firstItem="6jm-ZT-GPm" firstAttribute="leading" secondItem="ZoC-VG-uPN" secondAttribute="leadingMargin" constant="10" id="hH8-cI-t9e"/>
-                            <constraint firstItem="6jm-ZT-GPm" firstAttribute="top" secondItem="gOO-R6-6go" secondAttribute="bottom" constant="20" id="q9G-aW-qhe"/>
-                            <constraint firstItem="1eY-HM-10z" firstAttribute="leading" secondItem="6jm-ZT-GPm" secondAttribute="leading" constant="5" id="qUj-x4-CbG"/>
-                            <constraint firstItem="NcT-gF-mTB" firstAttribute="top" secondItem="1eY-HM-10z" secondAttribute="bottom" constant="10" id="rL0-Bf-tmN"/>
-                            <constraint firstItem="1eY-HM-10z" firstAttribute="leading" secondItem="6jm-ZT-GPm" secondAttribute="leading" id="rzo-Mw-ht0"/>
-                            <constraint firstItem="JQU-Qb-cSo" firstAttribute="top" secondItem="NcT-gF-mTB" secondAttribute="bottom" constant="5" id="vR3-Xt-Ito"/>
+                            <constraint firstItem="JQU-Qb-cSo" firstAttribute="leading" secondItem="6jm-ZT-GPm" secondAttribute="leading" id="0F8-NM-aJi"/>
+                            <constraint firstItem="1eY-HM-10z" firstAttribute="top" secondItem="6jm-ZT-GPm" secondAttribute="bottom" constant="5" id="0jN-KZ-61K"/>
+                            <constraint firstAttribute="centerX" secondItem="6jm-ZT-GPm" secondAttribute="centerX" constant="95" id="6Zx-zO-T1O"/>
+                            <constraint firstItem="JQU-Qb-cSo" firstAttribute="leading" secondItem="1eY-HM-10z" secondAttribute="leading" id="9fN-XU-AUY"/>
+                            <constraint firstItem="mpO-dJ-mic" firstAttribute="top" secondItem="6jm-ZT-GPm" secondAttribute="top" id="DXM-QG-cQ2"/>
+                            <constraint firstItem="NcT-gF-mTB" firstAttribute="top" secondItem="1eY-HM-10z" secondAttribute="bottom" constant="15" id="NGM-ks-0Rf"/>
+                            <constraint firstItem="JQU-Qb-cSo" firstAttribute="top" secondItem="NcT-gF-mTB" secondAttribute="bottom" constant="5" id="Snr-Bv-da9"/>
+                            <constraint firstItem="6jm-ZT-GPm" firstAttribute="top" secondItem="gOO-R6-6go" secondAttribute="bottom" constant="20" id="Tzv-iH-aqI"/>
+                            <constraint firstAttribute="centerX" secondItem="mpO-dJ-mic" secondAttribute="centerX" constant="-83" id="hBc-bW-3KA"/>
+                            <constraint firstItem="JQU-Qb-cSo" firstAttribute="leading" secondItem="NcT-gF-mTB" secondAttribute="leading" id="wc9-46-ef7"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="9Z6-hH-JDp"/>
-                                <exclude reference="djO-af-RPy"/>
-                                <exclude reference="qUj-x4-CbG"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="imagePerson" destination="VwN-Rh-bee" id="2Fj-Pm-QGf"/>

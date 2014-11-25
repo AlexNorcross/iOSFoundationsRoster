@@ -456,6 +456,7 @@
 				BA7171DC1A1BFCD00088672E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA7171DD1A1BFCD00088672E /* Build configuration list for PBXNativeTarget "iOSFoundationsRosterTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				BA7171DF1A1BFCD00088672E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
